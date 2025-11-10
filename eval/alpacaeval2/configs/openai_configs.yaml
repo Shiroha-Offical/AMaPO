@@ -1,0 +1,29 @@
+# name: str
+#     model_name: str
+#     endpoints: default to null
+#         - api_base: str
+#           api_key: str
+#           api_version: str optional (only for azure)
+#     api_type: str
+#     tokenizer: str optional (to optimize token limits)
+#     parallel: int
+#     system_prompt: str optional (add system instruction when generating model answer)
+#     - api_base: https://chatapi.littlewheat.com/v1
+
+#gpt-4-1106-preview:
+#      # api_1
+#      - api_key: "sk-xxx"
+#        base_url: XXX
+#
+#      # api_2
+#      - api_key: "sk-xxx"
+#        base_url: XXX
+
+gpt-4-1106-preview:
+      # api_1
+      - api_key: "sk-RFlHn6EKLEsWzLy7vwfbpHc5FswqViIT5mcD9HlY89Qfkes2"
+        base_url: "https://yunwu.ai/v1"
+
+      # api_2
+      - api_key: "sk-GjxAB1qSr8GRcwVv1D7IdJ5W1O36htNnNohmA0YvmDQ4kOiK"
+        base_url: "https://yunwu.ai/v1"

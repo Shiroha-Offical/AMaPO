@@ -1,0 +1,11 @@
+Mistral-7B-Instruct-AMaPO:
+  completions_kwargs:
+    batch_size: 900
+    max_new_tokens: 2048
+    model_kwargs:
+      torch_dtype: bfloat16
+    model_name: Mistral-7B-Instruct-AMaPO
+    temperature: 0.5
+  fn_completions: vllm_local_completions
+  pretty_name: Mistral-7B-Instruct-AMaPO
+  prompt_template: templates/mistral_instruct.txt
